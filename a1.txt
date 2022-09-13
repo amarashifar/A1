@@ -1,8 +1,12 @@
+1.------------------------------------------
 Script started on 2022-09-13 17:09:23-04:00
 ]0;amirali@sjsu:~[amirali@sjsu ~]$ mkdir A1
 ]0;amirali@sjsu:~[amirali@sjsu ~]$ exit
 
 Script done on 2022-09-13 17:09:38-04:00
+------------------------------------------
+
+2.------------------------------------------
 Script started on 2022-09-02 17:17:49-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ echo $HOME
 /home/amirali
@@ -11,8 +15,10 @@ Script started on 2022-09-02 17:17:49-04:00
 Script done on 2022-09-02 17:17:58-04:00
 What is your home directory path?  How did you find out (commands used)?
 /home/amirali
-
 Using the slides I found the echo $HOME command
+------------------------------------------
+
+3.------------------------------------------
 
 Script started on 2022-08-29 20:33:15-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cd 
@@ -26,7 +32,12 @@ UID = 1011
 Groups = 1011
 
 I found this command using google as well. id [username] will print the UID, 
-group, and gid number of the user. 
+group, and gid number of the user.
+------------------------------------------
+
+
+4.------------------------------------------
+
 Script started on 2022-09-12 14:24:33-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mkdir temp
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ chmod 666 temp/
@@ -40,13 +51,18 @@ touch: cannot touch 'temp/my.txt': Permission denied
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
 
 Script done on 2022-09-12 14:25:19-04:00
-are you allowed to cd in that directory?
+
+Are you allowed to cd in that directory?
 No, executable permission are not allowed 
-Can you ls it? Can you ls -l 
+Can you ls it? Can you ls -l?
 yes both commands are allowed since read permission are allowed
 Can you create files under it?
 executable files cannot be created under this directory. Only 
 the as a "su" can there be files added to this directory. 
+------------------------------------------------------
+
+
+5------------------------------------------------------
 Script started on 2022-09-12 14:41:36-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mkdir temp2
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mkdir temp3
@@ -63,13 +79,18 @@ temp3
 ]0;amirali@sjsu:~/A1/temp4[amirali@sjsu temp4]$ exit
 
 Script done on 2022-09-12 14:42:42-04:00
- Are you allowed to "mv" the directory to "temp3"?  
+Are you allowed to "mv" the directory to "temp3"?  
 Yes, I was able to move temp2 into temp3. It other words, renaming the file
 
  Are you allowed to "cp" a directory?
 Yes, a directory can be copied 
  If you want to cp an entire directory, how would you do it?
 cp -r meaning the contents of the directory can be copied. 
+
+------------------------------------------------------
+
+6 ------------------------------------------------------
+
 Script started on 2022-09-11 16:53:12-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cd 
 ]0;amirali@sjsu:~[amirali@sjsu ~]$ cd /proc/
@@ -117,16 +138,22 @@ cgroups
 
 Script done on 2022-09-11 16:54:30-04:00
 
-6) Using only "ls" (and maybe "grep"), can you find out which file under
+Using only "ls" (and maybe "grep"), can you find out which file under
 
     directory /proc/ contains information about memory (mem) on your
 
     server? Which file contains information about the cpu's on your server?
 
-    6. meminfor contains information about mem on server
-    6b. cpuinfo contains information about cpu on server
+6. meminfor contains information about mem on server
+6b. cpuinfo contains information about cpu on server
+------------------------------------------------------------------------
+
+
+7-----------------------------------------------------------------------
+
+
 Script started on 2022-08-30 17:23:00-04:00
-]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cd [K
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cd
 ]0;amirali@sjsu:~[amirali@sjsu ~]$ cd ../..
 ]0;amirali@sjsu:/[amirali@sjsu /]$ cd proc/
 ]0;amirali@sjsu:/proc[amirali@sjsu proc]$ head meminfo 
@@ -147,6 +174,10 @@ Script done on 2022-08-30 17:24:01-04:00
  	How much total memory is on your server?
 
 73 GB or 73080640 kB
+
+-----------------------------------------------------------------------
+
+8-----------------------------------------------------------------------
 Script started on 2022-09-13 16:59:28-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ head /proc/cpuinfo
 processor	: 0
@@ -1462,6 +1493,11 @@ Script done on 2022-09-13 17:00:42-04:00
 How many processors are on your server? 256 Processors
 What is the processor architecture name? POWER8 architecture  altivic suppoted
 What is the processor speed in GHz? 3523 MHz or 3.523 GHz
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+9----------------------------------------------------------------------------------------------------------------------------------------------
 Script started on 2022-09-01 13:59:23-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cp  ~test/A1/downloaded_hashtags_extend.csv
 cp: missing destination file operand after '/home/test/A1/downloaded_hashtags_extend.csv'
@@ -1487,7 +1523,6 @@ total 7.6M
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ wc -l downloaded_hashtags_extend.csv 
 110350 downloaded_hashtags_extend.csv
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ wc
-^C
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ wc downloaded_hashtags_extend.csv 
  110350  220699 7822180 downloaded_hashtags_extend.csv
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
@@ -1497,6 +1532,12 @@ What is the size in GB	 (GigaBytes) of the hashtags tweet dataset? 7.5 MB or 0.0
 
 How many lines does it have?
 110350 lines 
+
+------------------------------------------------------------------------------------------------------------
+
+
+10----------------------------------------------------------------------------------------------------------
+
 Script started on 2022-09-12 16:26:00-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ awk '/great/{print $2}' downloaded_hashtags_extend.csv |wc -l 
 57
@@ -1506,6 +1547,9 @@ Script done on 2022-09-12 16:27:11-04:00
 
 How many hastags? 
 57 of them have the word great. 
+-----------------------------------------------------------------------
+
+11-----------------------------------------------------------------------
 Script started on 2022-09-01 17:24:50-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ file downloaded_hashtags_extend.csv 
 downloaded_hashtags_extend.csv: UTF-8 Unicode text
@@ -1514,20 +1558,27 @@ downloaded_hashtags_extend.csv: UTF-8 Unicode text
 Script done on 2022-09-01 17:25:42-04:00
 What character encoding does it have?
 the file has character encoding of UTF-8 Unicode text
+-----------------------------------------------------------------------
 
+
+12-----------------------------------------------------------------------
 Script started on 2022-09-12 16:54:47-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ iconv -f utf-8 -t ascii//TRANSLIT downloaded_hashtags_extend.csv > a12_ASCII.csv
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ file a12_ASCII.csv
 a12_ASCII.csv: ASCII text
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
+-----------------------------------------------------------------------
+
+
+13-----------------------------------------------------------------------------------------------------------------------------
 
 Script done on 2022-09-12 16:55:14-04:00
 Script started on 2022-09-12 16:56:43-04:00
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ awk -F, 'NR>1{print $1}' a12_ASCII.csv|sort -u |wc -l
 176
-]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ awk -F, 'NR>1{print $1}' a12_ASCII.csv|sort -u |wc -l
-64697
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ awk -F, 'NR>1{print $4}' a12_ASCII.csv|sort -u |wc -l
+64697
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ awk -F, 'NR>1{print $2}' a12_ASCII.csv|sort -u |wc -l
 20134
 ]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
 
@@ -1539,3 +1590,7 @@ How many unique tweets were tweeted in this file (tweet IDs are in the last colu
 64697
 How many unique hashtags (second column) were tweeted in this file? Is it the same as the number of tweets or more or less? 
 20134
+
+I used the a12_ASCII.csv file generated above to find the answers to question 13. However, did not include the file in the repo per the
+professor's request. 
+-----------------------------------------------------------------------------------------------------------------------------
