@@ -1,8 +1,27 @@
-Script started on 2022-08-30 17:27:03-04:00
-]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cat =[K[K[K[K[Kcd ../..
-]0;amirali@sjsu:/home[amirali@sjsu home]$ cd ..
-]0;amirali@sjsu:/[amirali@sjsu /]$ cd proc/
-]0;amirali@sjsu:/proc[amirali@sjsu proc]$ cat cpuinfo 
+Script started on 2022-09-13 16:59:28-04:00
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ head /proc/cpuinfo
+processor	: 0
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+processor	: 1
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ tail /proc/cpuinfo
+processor	: 255
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+timebase	: 512000000
+platform	: pSeries
+model		: IBM,8286-42A
+machine		: CHRP IBM,8286-42A
+MMU		: Hash
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cat /proc/cpuinfo
 processor	: 0
 cpu		: POWER8 (architected), altivec supported
 clock		: 3525.000000MHz
@@ -1288,31 +1307,9 @@ platform	: pSeries
 model		: IBM,8286-42A
 machine		: CHRP IBM,8286-42A
 MMU		: Hash
-]0;amirali@sjsu:/proc[amirali@sjsu proc]$ head cpuinfo 
-processor	: 0
-cpu		: POWER8 (architected), altivec supported
-clock		: 3525.000000MHz
-revision	: 2.1 (pvr 004b 0201)
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
 
-processor	: 1
-cpu		: POWER8 (architected), altivec supported
-clock		: 3525.000000MHz
-revision	: 2.1 (pvr 004b 0201)
-
-]0;amirali@sjsu:/proc[amirali@sjsu proc]$ tia[K[Kail cpuinfo 
-processor	: 255
-cpu		: POWER8 (architected), altivec supported
-clock		: 3525.000000MHz
-revision	: 2.1 (pvr 004b 0201)
-
-timebase	: 512000000
-platform	: pSeries
-model		: IBM,8286-42A
-machine		: CHRP IBM,8286-42A
-MMU		: Hash
-]0;amirali@sjsu:/proc[amirali@sjsu proc]$ exit
-
-Script done on 2022-08-30 17:30:09-04:00
-How many processors are on your server? 255 Processors
-What is the processor architecture name? POWER8 altivic
+Script done on 2022-09-13 17:00:42-04:00
+How many processors are on your server? 256 Processors
+What is the processor architecture name? POWER8 architecture  altivic suppoted
 What is the processor speed in GHz? 3523 MHz or 3.523 GHz
