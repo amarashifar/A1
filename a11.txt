@@ -1,0 +1,9 @@
+Script started on 2022-09-01 17:24:50-04:00
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ file downloaded_hashtags_extend.csv 
+downloaded_hashtags_extend.csv: UTF-8 Unicode text
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
+
+Script done on 2022-09-01 17:25:42-04:00
+What character encoding does it have?
+the file has character encoding of UTF-8 Unicode text
+

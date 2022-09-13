@@ -1,0 +1,23 @@
+Script started on 2022-09-12 14:41:36-04:00
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mkdir temp2
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mkdir temp3
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mv temp2 temp3
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ mkdir temp4
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cp -r temp3 temp4
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ ls
+a10.txt     a12.txt  a2.txt  a5.txt  a8.txt                 
+a11.txt     a13.txt  a3.txt  a6.txt  a9.txt                    
+a12_output  a1.txt   a4.txt  a7.txt  downloaded_hashtags_extend.csv 
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cd temp4/
+]0;amirali@sjsu:~/A1/temp4[amirali@sjsu temp4]$ ls
+temp3
+]0;amirali@sjsu:~/A1/temp4[amirali@sjsu temp4]$ exit
+
+Script done on 2022-09-12 14:42:42-04:00
+ Are you allowed to "mv" the directory to "temp3"?  
+Yes, I was able to move temp2 into temp3. It other words, renaming the file
+
+ Are you allowed to "cp" a directory?
+Yes, a directory can be copied 
+ If you want to cp an entire directory, how would you do it?
+cp -r meaning the contents of the directory can be copied. 

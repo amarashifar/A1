@@ -1,0 +1,22 @@
+Script started on 2022-08-30 17:23:00-04:00
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ cd [K
+]0;amirali@sjsu:~[amirali@sjsu ~]$ cd ../..
+]0;amirali@sjsu:/[amirali@sjsu /]$ cd proc/
+]0;amirali@sjsu:/proc[amirali@sjsu proc]$ head meminfo 
+MemTotal:       73080640 kB
+MemFree:        12030784 kB
+MemAvailable:   63458176 kB
+Buffers:            6848 kB
+Cached:         52350272 kB
+SwapCached:            0 kB
+Active:          1011584 kB
+Inactive:       51538816 kB
+Active(anon):       6976 kB
+Inactive(anon):   259136 kB
+]0;amirali@sjsu:/proc[amirali@sjsu proc]$ exit
+
+Script done on 2022-08-30 17:24:01-04:00
+7) Use head to check the memory information file you found above.
+ 	How much total memory is on your server?
+
+73 GB or 73080640 kB

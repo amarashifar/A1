@@ -1,0 +1,7 @@
+Script started on 2022-09-12 16:54:47-04:00
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ iconv -f utf-8 -t ascii//TRANSLIT downloaded_hashtags_extend.csv > a12_ASCII.csv
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ file a12_ASCII.csv
+a12_ASCII.csv: ASCII text
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
+
+Script done on 2022-09-12 16:55:14-04:00

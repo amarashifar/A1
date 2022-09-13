@@ -1,0 +1,9 @@
+Script started on 2022-09-12 16:26:00-04:00
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ awk '/great/{print $2}' downloaded_hashtags_extend.csv |wc -l 
+57
+]0;amirali@sjsu:~/A1[amirali@sjsu A1]$ exit
+
+Script done on 2022-09-12 16:27:11-04:00
+
+How many hastags? 
+57 of them have the word great. 
